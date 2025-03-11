@@ -90,7 +90,7 @@ setup(name='plip',
     license='GPLv2',
     packages=find_packages(),
     scripts=['plip/plipcmd.py'],
-    cmdclass={'build': CustomBuild, 'build_ext': CustomBuildExt, 'install': CustomInstall},
+    # cmdclass={'build': CustomBuild, 'build_ext': CustomBuildExt, 'install': CustomInstall},
     install_requires=[
         'numpy',
         'lxml'
